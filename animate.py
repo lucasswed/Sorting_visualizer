@@ -6,6 +6,7 @@ from bubble import bubble_sort
 from cocktail import cocktail_sort
 from comb import comb_sort
 from exchange import exchange_sort
+from gnome import gnome_sort
 
 COLORS = {
     "background": (35, 35, 40),
@@ -22,8 +23,8 @@ ALGORITHMS = {
     "Bubble Sort": bubble_sort,
     "Cocktail Sort": cocktail_sort,
     "Comb Sort": comb_sort,
-    "Exchange Sort": exchange_sort
-    
+    "Exchange Sort": exchange_sort,
+    "Gnome Sort": gnome_sort
 }
 
 
