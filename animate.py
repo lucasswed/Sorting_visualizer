@@ -8,6 +8,8 @@ from comb import comb_sort
 from exchange import exchange_sort
 from gnome import gnome_sort
 from insertion import insertion_sort
+from shell import shell_sort
+from binary_insertion import binary_insertion_sort
 
 COLORS = {
     "background": (35, 35, 40),
@@ -26,7 +28,9 @@ ALGORITHMS = {
     "Comb Sort": comb_sort,
     "Exchange Sort": exchange_sort,
     "Gnome Sort": gnome_sort,
-    "Insertion Sort": insertion_sort
+    "Insertion Sort": insertion_sort,
+    "Shell Sort": shell_sort,
+    "Binary Insertion Sort": binary_insertion_sort
 }
 
 
